@@ -4,11 +4,8 @@
 #+SETUPFILE: ~/theme-readtheorg.setup
 #+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
 
-#+begin_quote
-Blockchain can be understood in a simplistic manner as an intricate database or a data structure.
-#+end_quote
-
-* Table of Content :TOC:
+* Table of Content :toc:
+- [[#blockchain-is][Blockchain is:]]
 - [[#program-state][Program State]]
 - [[#the-applicationweb2-system][The Application/Web2 System]]
 - [[#the-decentralized-application-system][The Decentralized Application System]]
@@ -26,6 +23,11 @@ Blockchain can be understood in a simplistic manner as an intricate database or 
 - [[#broadcast][Broadcast]]
 - [[#characteristic-of-blockchain][Characteristic of Blockchain]]
 - [[#the-vulnerabilities-of-blockchain][The vulnerabilities of Blockchain]]
+
+* Blockchain is:
+#+begin_quote
+Blockchain can be understood in a simplistic manner as an intricate database or a data structure.
+#+end_quote
 
 * Program State
 [[./images/program-state.png]]
