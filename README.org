@@ -18,5 +18,5 @@
   + Zero-Knowledge Proofs
 #+end_quote
 
-* Blockchain Basic
-** [[./blockchain_basic/01_what_is_blockchain.org][What is Blockchain?]]
+** Blockchain Basic
++ [[./blockchain_basic/01_what_is_blockchain.org][What is Blockchain?]]
