@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-06-06 Tue 17:16 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>What is Blockchain</title>
+<meta name="author" content="Dang Quang Vu" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<style>pre.src{background:#343131;color:white;} </style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">What is Blockchain</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org14189aa">1. Program State</a></li>
+<li><a href="#org8b28955">2. The Application/Web2 System</a></li>
+<li><a href="#org2f99763">3. The Decentralized Application System</a></li>
+<li><a href="#org176f9c6">4. Networks</a></li>
+<li><a href="#orgf166973">5. Decentralized Models</a></li>
+<li><a href="#org6c3cef5">6. Components of an Blockchain</a>
+<ul>
+<li><a href="#orgd3f51c7">6.1. Decentralized Models</a></li>
+<li><a href="#orgaefc093">6.2. Data Models</a></li>
+<li><a href="#org8f2ea25">6.3. Network Models</a></li>
+<li><a href="#org7a02772">6.4. Consensus - (Proof-of-X)</a></li>
+<li><a href="#orgcef9f12">6.5. Cryptographic Schemes</a></li>
+</ul>
+</li>
+<li><a href="#org99c7fec">7. How the Blockchain Work</a></li>
+<li><a href="#org21019f8">8. Body of the Block</a></li>
+<li><a href="#orgc4fa71b">9. Merkle Tree</a></li>
+<li><a href="#org3a694c9">10. Broadcast</a></li>
+<li><a href="#org5754cfa">11. Charactistic of Blockchain</a></li>
+<li><a href="#orgbff243d">12. The vulnerabilities of Blockchain</a></li>
+</ul>
+</div>
+</div>
+<blockquote>
+<p>
+Blockchain can be understood in a simplistic manner as an intricate database or a data structure.
+</p>
+</blockquote>
+
+<div id="outline-container-org14189aa" class="outline-2">
+<h2 id="org14189aa"><span class="section-number-2">1.</span> Program State</h2>
+<div class="outline-text-2" id="text-1">
+
+<div id="orgaabd080" class="figure">
+<p><img src="./images/program-state.png" alt="program-state.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8b28955" class="outline-2">
+<h2 id="org8b28955"><span class="section-number-2">2.</span> The Application/Web2 System</h2>
+<div class="outline-text-2" id="text-2">
+
+<div id="orgdcde7a5" class="figure">
+<p><img src="./images/blockchain-step.png" alt="blockchain-step.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2f99763" class="outline-2">
+<h2 id="org2f99763"><span class="section-number-2">3.</span> The Decentralized Application System</h2>
+<div class="outline-text-2" id="text-3">
+
+<div id="org71eff0e" class="figure">
+<p><img src="./images/transaction.png" alt="transaction.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org176f9c6" class="outline-2">
+<h2 id="org176f9c6"><span class="section-number-2">4.</span> Networks</h2>
+<div class="outline-text-2" id="text-4">
+
+<div id="orgc169fed" class="figure">
+<p><img src="./images/network-models.png" alt="network-models.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf166973" class="outline-2">
+<h2 id="orgf166973"><span class="section-number-2">5.</span> Decentralized Models</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li>Permissionless Blockchain - Public Blockchain
+<ul class="org-ul">
+<li>Anyone can access to write the data</li>
+<li>Anyone can read the data</li>
+</ul></li>
+<li>Permissioned Blockchain - Private Blockchain
+<ul class="org-ul">
+<li>Participants need permission to accessing</li>
+<li>Readers need permission</li>
+<li>Ex: Hyperledger, Corda</li>
+</ul></li>
+<li>Consortium Blockchin
+<ul class="org-ul">
+<li>Participants need permission to accessing</li>
+<li>Anyone can read the data</li>
+<li>Ex: Ripple</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6c3cef5" class="outline-2">
+<h2 id="org6c3cef5"><span class="section-number-2">6.</span> Components of an Blockchain</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgd3f51c7" class="outline-3">
+<h3 id="orgd3f51c7"><span class="section-number-3">6.1.</span> Decentralized Models</h3>
+<div class="outline-text-3" id="text-6-1">
+<ul class="org-ul">
+<li>Permissionless</li>
+<li>Permissioned</li>
+<li>Consortium</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaefc093" class="outline-3">
+<h3 id="orgaefc093"><span class="section-number-3">6.2.</span> Data Models</h3>
+<div class="outline-text-3" id="text-6-2">
+<ul class="org-ul">
+<li>State Models</li>
+<li>Blocks &amp; Transactions</li>
+<li>Broadcast Data</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8f2ea25" class="outline-3">
+<h3 id="org8f2ea25"><span class="section-number-3">6.3.</span> Network Models</h3>
+<div class="outline-text-3" id="text-6-3">
+<ul class="org-ul">
+<li>Asynchronous</li>
+<li>Synchronous</li>
+<li>Partial Synchronous</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7a02772" class="outline-3">
+<h3 id="org7a02772"><span class="section-number-3">6.4.</span> Consensus - (Proof-of-X)</h3>
+<div class="outline-text-3" id="text-6-4">
+<ul class="org-ul">
+<li>Proof of Work</li>
+<li>Proof of Stake</li>
+<li>DPoS</li>
+<li>More Consensus
+<ul class="org-ul">
+<li>Doomslug</li>
+<li>HotStuff</li>
+<li>TendermintBFT</li>
+<li>Ouroboros</li>
+<li>TowerBFT</li>
+<li>Nominated PoS</li>
+<li>AptosBFT</li>
+<li>Bullshark &amp; Narwhal</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcef9f12" class="outline-3">
+<h3 id="orgcef9f12"><span class="section-number-3">6.5.</span> Cryptographic Schemes</h3>
+<div class="outline-text-3" id="text-6-5">
+<ul class="org-ul">
+<li>Hashing</li>
+<li>Merkle Tree</li>
+<li>Signature</li>
+<li>Zero-knowledge Proofs</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org99c7fec" class="outline-2">
+<h2 id="org99c7fec"><span class="section-number-2">7.</span> How the Blockchain Work</h2>
+<div class="outline-text-2" id="text-7">
+
+<div id="org15fa139" class="figure">
+<p><img src="./images/transaction.png" alt="transaction.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org21019f8" class="outline-2">
+<h2 id="org21019f8"><span class="section-number-2">8.</span> Body of the Block</h2>
+<div class="outline-text-2" id="text-8">
+
+<div id="orgbd0e4a7" class="figure">
+<p><img src="./images/nonce.png" alt="nonce.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc4fa71b" class="outline-2">
+<h2 id="orgc4fa71b"><span class="section-number-2">9.</span> Merkle Tree</h2>
+<div class="outline-text-2" id="text-9">
+
+<div id="orgabd4168" class="figure">
+<p><img src="./images/merkle-tree.png" alt="merkle-tree.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3a694c9" class="outline-2">
+<h2 id="org3a694c9"><span class="section-number-2">10.</span> Broadcast</h2>
+<div class="outline-text-2" id="text-10">
+
+<div id="orgf798508" class="figure">
+<p><img src="./images/node.png" alt="node.png" />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5754cfa" class="outline-2">
+<h2 id="org5754cfa"><span class="section-number-2">11.</span> Charactistic of Blockchain</h2>
+<div class="outline-text-2" id="text-11">
+<ul class="org-ul">
+<li>Global</li>
+<li>Append-only</li>
+<li>High Availability</li>
+<li>Irreversibility</li>
+<li>Sustainability</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbff243d" class="outline-2">
+<h2 id="orgbff243d"><span class="section-number-2">12.</span> The vulnerabilities of Blockchain</h2>
+<div class="outline-text-2" id="text-12">
+<ul class="org-ul">
+<li>Slow</li>
+<li>Expensive</li>
+<li>Latency</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Dang Quang Vu</p>
+<p class="date">Created: 2023-06-06 Tue 17:16</p>
+</div>
+</body>
+</html>
