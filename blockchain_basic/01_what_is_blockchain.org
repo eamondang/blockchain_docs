@@ -1,0 +1,89 @@
+#+TITLE: What is Blockchain
+#+AUTHOR: Dang Quang Vu
+#+EMAIL: eamondang@gmail.com
+#+SETUPFILE: ~/theme-readtheorg.setup
+#+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
+
+#+begin_quote
+Blockchain can be understood in a simplistic manner as an intricate database or a data structure.
+#+end_quote
+
+* Program State
+[[./images/program-state.png]]
+
+* The Application/Web2 System
+[[./images/blockchain-step.png]]
+
+* The Decentralized Application System
+[[./images/transaction.png]]
+
+* Networks
+[[./images/network-models.png]]
+
+* Decentralized Models
++ Permissionless Blockchain - Public Blockchain
+  + Anyone can access to write the data
+  + Anyone can read the data
++ Permissioned Blockchain - Private Blockchain
+  + Participants need permission to accessing
+  + Readers need permission
+  + Ex: Hyperledger, Corda
++ Consortium Blockchin
+  + Participants need permission to accessing
+  + Anyone can read the data
+  + Ex: Ripple
+
+* Components of an Blockchain
+** Decentralized Models
++ Permissionless
++ Permissioned
++ Consortium
+** Data Models
++ State Models
++ Blocks & Transactions
++ Broadcast Data
+** Network Models
++ Asynchronous
++ Synchronous
++ Partial Synchronous
+** Consensus - (Proof-of-X)
++ Proof of Work
++ Proof of Stake
++ DPoS
++ More Consensus
+  + Doomslug
+  + HotStuff
+  + TendermintBFT
+  + Ouroboros
+  + TowerBFT
+  + Nominated PoS
+  + AptosBFT
+  + Bullshark & Narwhal
+** Cryptographic Schemes
++ Hashing
++ Merkle Tree
++ Signature
++ Zero-knowledge Proofs
+
+* How the Blockchain Work
+[[./images/transaction.png]]
+
+* Body of the Block
+[[./images/nonce.png]]
+
+* Merkle Tree
+[[./images/merkle-tree.png]]
+
+* Broadcast
+[[./images/node.png]]
+
+* Charactistic of Blockchain
++ Global
++ Append-only
++ High Availability
++ Irreversibility
++ Sustainability
+* The vulnerabilities of Blockchain
++ Slow
++ Expensive
++ Latency

@@ -1,0 +1,22 @@
+#+TITLE: Bootcamp Blockchain Course
+#+AUTHOR: Dang Quang Vu
+#+EMAIL: eamondang@gmail.com
+#+SETUPFILE: ~/theme-readtheorg.setup
+#+HTML_HEAD: <style>pre.src{background:#343131;color:white;} </style>
+
+#+begin_quote
++ Đặng Quang Vũ - =is a rustacean=
++ 7 years of experience in programming development
++ including 5 years of experience specifically in blockchain development and smart contracts.
++ Blockchain Tech Lead at GFI Venture
++ Head of falcuty at VBI Academy
++ Blockchain Experiences:
+  + Solidity & EVM
+  + *Rust Programming Language*
+  + Near Protocol & Solana Protocol
+  + Move Programming Language & SUI Protocol, Aptos Protocol.
+  + Zero-Knowledge Proofs
+#+end_quote
+
+* Blockchain Basic
+** [[./blockchain_basic/01_what_is_blockchain.org][What is Blockchain?]]
