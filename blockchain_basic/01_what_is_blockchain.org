@@ -8,6 +8,25 @@
 Blockchain can be understood in a simplistic manner as an intricate database or a data structure.
 #+end_quote
 
+* Table of Content :TOC:
+- [[#program-state][Program State]]
+- [[#the-applicationweb2-system][The Application/Web2 System]]
+- [[#the-decentralized-application-system][The Decentralized Application System]]
+- [[#networks][Networks]]
+- [[#decentralized-models][Decentralized Models]]
+- [[#components-of-an-blockchain][Components of an Blockchain]]
+  - [[#decentralized-models-1][Decentralized Models]]
+  - [[#data-models][Data Models]]
+  - [[#network-models][Network Models]]
+  - [[#consensus---proof-of-x][Consensus - (Proof-of-X)]]
+  - [[#cryptographic-schemes][Cryptographic Schemes]]
+- [[#how-the-blockchain-work][How the Blockchain Work]]
+- [[#body-of-the-block][Body of the Block]]
+- [[#merkle-tree][Merkle Tree]]
+- [[#broadcast][Broadcast]]
+- [[#characteristic-of-blockchain][Characteristic of Blockchain]]
+- [[#the-vulnerabilities-of-blockchain][The vulnerabilities of Blockchain]]
+
 * Program State
 [[./images/program-state.png]]
 
@@ -77,7 +96,7 @@ Blockchain can be understood in a simplistic manner as an intricate database or 
 * Broadcast
 [[./images/node.png]]
 
-* Charactistic of Blockchain
+* Characteristic of Blockchain
 + Global
 + Append-only
 + High Availability
